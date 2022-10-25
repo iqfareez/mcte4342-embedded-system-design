@@ -1,2 +1,5 @@
-# mcte4342-embedded-system-design
-Embedded System Design class learning materials
+# [MCTE 4342] Embedded System Design
+
+|  No.   | Title | Description |
+| :----: | :---- | :---------- |
+| Week 4 | GPIO  |             |
