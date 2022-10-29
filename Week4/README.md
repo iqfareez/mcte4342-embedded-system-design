@@ -4,7 +4,7 @@
 
 #### Code
 
-[ex_6_blink_without_delay.ino](/mcte4342-embedded-system-design/Week4/ex_6_blink_without_delay/ex_6_blink_without_delay.ino)
+[ex_6_blink_without_delay.ino](/Week4/ex_6_blink_without_delay/ex_6_blink_without_delay.ino)
 
 #### Video
 
@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/60868965/198814283-76f44e4d-bdf4-481e-
 
 #### Code
 
-[ex_6_debouncing_without_delay.ino](/mcte4342-embedded-system-design/Week4/ex_6_debouncing_without_delay/ex_6_debouncing_without_delay.ino)
+[ex_6_debouncing_without_delay.ino](/Week4/ex_6_debouncing_without_delay/ex_6_debouncing_without_delay.ino)
 
 #### Video
 
@@ -24,13 +24,13 @@ https://user-images.githubusercontent.com/60868965/198814267-1183dd70-b9f5-4f9d-
 
 #### Code
 
-[ex_7.ino](/mcte4342-embedded-system-design/Week4/ex_7/ex_7.ino)
+[ex_7.ino](/Week4/ex_7/ex_7.ino)
 
 ### Example 8 - Multiple button counter
 
 #### Code
 
-[ex_8_buttons.ino](/mcte4342-embedded-system-design/Week4/ex_8_buttons/ex_8_buttons.ino)
+[ex_8_buttons.ino](/Week4/ex_8_buttons/ex_8_buttons.ino)
 
 #### Video
 
@@ -40,7 +40,7 @@ https://user-images.githubusercontent.com/60868965/198814230-b38c2f9e-c2f8-4df6-
 
 #### Code
 
-[ex_9.ino](/mcte4342-embedded-system-design/Week4/ex_9/ex_9.ino)
+[ex_9.ino](/Week4/ex_9/ex_9.ino)
 
 #### Video
 
