@@ -9,7 +9,7 @@ Details of each week tasks is available in their respective folders.
 |         No.          | Title            | Status                        |
 | :------------------: | :--------------- | :---------------------------- |
 |  [Week 4](./Week4/)  | GPIO             | :white_check_mark:            |
-|  [Week 5](./Week5/)  | Analog           | :negative_squared_cross_mark: |
+|  [Week 5](./Week5/)  | Analog           | :arrows_counterclockwise:     |
 |  [Week 6](./Week6/)  | Timer Port       | :negative_squared_cross_mark: |
 |  [Week 7](./Week7/)  | Interrupts       | :negative_squared_cross_mark: |
 |  [Week 8](./Week8/)  | Memory           | :negative_squared_cross_mark: |
