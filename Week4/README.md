@@ -1,4 +1,11 @@
-## Week 4 - GPIO :white_check_mark:
+# Week 4 - GPIO
+
+## Notes
+
+[![esd_GPIO](https://user-images.githubusercontent.com/60868965/199430557-4559427c-20fb-4301-b3f3-9fc2a0ccfcba.png)](https://excalidraw.com/#json=B6-5-q9C37AyjwCQSIbic,KAiAyB-tvlCHr_1Yc5VMzg)
+
+
+## Exercises
 
 ### Example 6(a) - Blink without delay
 
