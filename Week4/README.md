@@ -4,6 +4,10 @@
 
 [![esd_GPIO](https://user-images.githubusercontent.com/60868965/199430557-4559427c-20fb-4301-b3f3-9fc2a0ccfcba.png)](https://excalidraw.com/#json=B6-5-q9C37AyjwCQSIbic,KAiAyB-tvlCHr_1Yc5VMzg)
 
+More notes [here](#more-notes)
+
+
+
 
 ## Exercises
 
@@ -52,3 +56,7 @@ https://user-images.githubusercontent.com/60868965/198814230-b38c2f9e-c2f8-4df6-
 #### Video
 
 https://user-images.githubusercontent.com/60868965/198814252-560963ad-2e4d-4428-9769-1b638564d8dc.mp4
+
+## More notes
+
+[![esd_GPIO-unconvinient](https://user-images.githubusercontent.com/60868965/200447166-45293bd1-d854-4950-9d54-7bbd801aae06.png)](https://excalidraw.com/#json=5d2_VQ-oYgKLFIdm9dobQ,nUVRehJHY6hF45YPQcsYbQ)
