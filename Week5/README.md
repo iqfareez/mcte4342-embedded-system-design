@@ -2,7 +2,7 @@
 
 ## Notes
 
-<!-- todo -->
+[![analog_embedded](https://user-images.githubusercontent.com/60868965/201250675-c3a9a927-97e8-4e92-a0b4-788906fb8214.png)](https://excalidraw.com/?#json=I2tZeD7kwnyZZRillXt4K,RiZxuo7eHJYgWIH0ND4Muw)
 
 ## Exercises
 
