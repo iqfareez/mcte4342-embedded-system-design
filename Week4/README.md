@@ -57,6 +57,12 @@ https://user-images.githubusercontent.com/60868965/198814230-b38c2f9e-c2f8-4df6-
 
 https://user-images.githubusercontent.com/60868965/198814252-560963ad-2e4d-4428-9769-1b638564d8dc.mp4
 
+### RGB led
+
+![rgb_led_bb](https://user-images.githubusercontent.com/60868965/203570064-57a2c8bb-604c-467c-9318-c0e900a4536c.png)
+
+https://user-images.githubusercontent.com/60868965/203570049-cd692874-7715-4f0c-9f5a-7b39cc78a44a.mp4
+
 ## More notes
 
 [![esd_GPIO-unconvinient](https://user-images.githubusercontent.com/60868965/200447166-45293bd1-d854-4950-9d54-7bbd801aae06.png)](https://excalidraw.com/#json=5d2_VQ-oYgKLFIdm9dobQ,nUVRehJHY6hF45YPQcsYbQ)
