@@ -28,5 +28,4 @@ Turn LED on/off via button
 
 To interface with the encoder, we can use polling or interrupt. Both are possible. However, the former may have risks of missing signal if the rate is very fast. 
 
-TODO
-
+https://user-images.githubusercontent.com/60868965/203591441-b46ffbd4-f7d5-4bad-9f3c-9fbb27a033f0.mp4
