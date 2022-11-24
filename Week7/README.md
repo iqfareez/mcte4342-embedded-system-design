@@ -2,7 +2,10 @@
 
 ## Notes
 
-TODO
+![Interrupt](https://user-images.githubusercontent.com/60868965/203674889-cd57ad2d-b5ae-472d-b94c-19ca2b78a240.png)
+![Interrupt (2)](https://user-images.githubusercontent.com/60868965/203674896-c9b17b63-aa20-4512-b643-e9a25781fda9.png)
+
+[Excalidraw's link](https://excalidraw.com/#json=KN8NDZF8FKmMH3xqWUf4l,mtXavF0HhEw6u1svydAVcA)
 
 ## Activities
 
