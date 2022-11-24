@@ -11,8 +11,8 @@ Details of each week tasks is available in their respective folders.
 |  [Week 4](./Week4/)  | GPIO             | :white_check_mark:            |
 |  [Week 5](./Week5/)  | Analog           | :white_check_mark:            |
 |  [Week 6](./Week6/)  | Timer Port       | :white_check_mark:            |
-|  [Week 7](./Week7/)  | Interrupts       | :arrows_counterclockwise:     |
-|  [Week 8](./Week8/)  | Memory           | :negative_squared_cross_mark: |
+|  [Week 7](./Week7/)  | Interrupts       | :white_check_mark:            |
+|  [Week 8](./Week8/)  | Memory           | :white_check_mark:            |
 |  [Week 9](./Week9/)  | Power management | :negative_squared_cross_mark: |
 | [Week 10](./Week10/) | Motors           | :negative_squared_cross_mark: |
 | [Week 11](./Week11/) | Serial com.      | :negative_squared_cross_mark: |
