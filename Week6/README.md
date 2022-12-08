@@ -22,3 +22,5 @@ and the Servo moves to the position. But, what 'message' exactly did Arduino sen
 Turns out, the servo can be controlled via a PWM signal.
 
 https://user-images.githubusercontent.com/60868965/201619291-494618c9-e231-431d-b371-0ea7f92136bf.mp4
+
+_not really sure how does he goes 360 there :shrug:_
