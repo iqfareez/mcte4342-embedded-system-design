@@ -27,7 +27,7 @@ Turn LED on/off via button
 
 > This Encoder Sensor Module Digital Output can use to check the rate of an electric motor. This module can be used with a microcontroller for motor speed detection, pulse count and position limit. In principle, any rate meter simply measures the rate at which some event occurs. Usually, this is done by counting the events for a given period of time (integration interval) and then simply dividing the number of events by the time to get the rate.
 
-**Note** I don't have the require wheel (like [this one](https://www.teknatool.com/wp-content/uploads/2020/10/46061_Wheel_01.jpg) to actually count the RPM. I've replaced it with a slotted rectangle instead. The concept remains the same ie if you move the thing faster, the measured rate increases.
+**Note** I don't have the require wheel (like [this one](https://www.teknatool.com/wp-content/uploads/2020/10/46061_Wheel_01.jpg) to actually count the RPM. So, I've made a rectange with equal slot instead. The concept remains the same i.e. if you move the thing faster, the rate increases, hence the "RPM" increases.
 
 To interface with the encoder, we can use polling or interrupt. Both are possible. However, the former may have risks of missing signal if the rate is very fast. 
 
