@@ -62,6 +62,8 @@ This program is available in the IDE. To open it, go to `File` --> `Examples` --
 
 ##### Circuit diagram
 
+![image](https://user-images.githubusercontent.com/60868965/209552589-21b73b67-85ae-41e6-a973-a50653c2ed7c.png)
+
 | Arduino Uno | SD Card Module |
 | ----------- | -------------- |
 | 5V          | VCC            |
@@ -101,19 +103,21 @@ HORNET~1/     2021-04-17 10:18:06
 
 Enter some string in the Serial Monitor and it will be saved in the SD card.
 
-<!-- insert video here -->
+https://user-images.githubusercontent.com/60868965/209552746-531c9267-430c-47b2-8b87-5001b2025aad.mp4
 
-<!-- inser screenshot here -->
+Then, open the file using computer and this is the written names:
+
+![Screenshot_20221225_072148](https://user-images.githubusercontent.com/60868965/209552690-4a1bc708-78fb-4a8d-847f-bd43b489491f.png)
 
 #### Datalogger
 
 ##### Circuit diagram
 
-SD Card circuit same as below, just with a few addition:
+![image](https://user-images.githubusercontent.com/60868965/209552568-d11da229-4201-4b1a-babd-54916a2357e1.png)
+
+SD Card circuit same as above, just with a few addition:
 
 This program will store the servo angle in the SD card.
-
-<!-- insert video here -->
 
 Sometimes it shows the write is failed. I'm not sure why. I suspect that the Servo was pulling too much current, but that seems not to be the problem since the issues persist even after I disconnect the power to the servo.
 
