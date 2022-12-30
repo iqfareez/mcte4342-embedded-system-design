@@ -10,23 +10,23 @@ I had trouble getting it to work here.
 
 #### Circuit diagram
 
-<!-- letak circuit diagram -->
+![pico-microbit_bb](https://user-images.githubusercontent.com/60868965/210035003-83a06d14-5a02-462b-934f-a9f1278fa6d1.png)
 
 #### Code
 
 ##### For Pico
 
-<!-- letak code link -->
+[code.py](https://github.com/iqfareez/mcte4342-embedded-system-design/blob/main/Week11/pico/code.py)
 
 ##### For microbit
 
-<!-- letak screenshot -->
+![Screenshot_20221230_092027](https://user-images.githubusercontent.com/60868965/210035118-5fd8354e-fdb7-4459-bc55-b92c77a8d07f.png)
 
 #### Result :x:
 
 I tried to check what are the data received on microbit from Pico. No useful data can be found.
 
-<!-- letak video -->
+https://user-images.githubusercontent.com/60868965/210035027-d83053f6-daca-4b78-992e-b8db8d87ddda.mp4
 
 In my opinion, the CircuitPython API for [writing](https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.UART.write) to Serial is quite hard to use. The [documentation](https://learn.adafruit.com/circuitpython-essentials/circuitpython-uart-serial) also lacks examples especially about sending data over the serial port.
 
@@ -36,11 +36,21 @@ So, I've replaced it with Arduino as follows:
 
 #### Circuit diagram
 
+| Real | Fritzing |
+|--|--|
+|![fritzing arduino pico](https://user-images.githubusercontent.com/60868965/210032863-39923713-a0db-436c-9b9e-db22325c7acd.jpg) | ![arduino-microbit_bb](https://user-images.githubusercontent.com/60868965/210034974-f1ab210c-2e2a-43f5-9c47-b5ae2978d5bf.png) |
+
 #### Code
 
 ##### For Arduino
 
+[arduino_out.ino](https://github.com/iqfareez/mcte4342-embedded-system-design/blob/main/Week11/arduino_out/arduino_out.ino)
+
 ##### For microbit
+
+![codeblock](https://user-images.githubusercontent.com/60868965/210035072-f2fdbd42-d6c3-4de2-afbe-d6f805652e70.png)
+
+https://makecode.microbit.org/_FPae6FgPLF8x
 
 #### Result :white_check_mark:
 
@@ -61,3 +71,18 @@ Control the water pump using Arduino and the Android app over Bluetooth. Also, c
 Details in [this repo](https://github.com/iqfareez/soil_humidity)
 
 ### 3D printer
+
+3D printer can be controlled by sending a GCODE command to it.
+
+Simply connect the PC to the 3D printer using USB cable. I'm using [CoolTerm](https://freeware.the-meiers.org/) as a Serial Monitor.
+
+#### Demo 1: Home all axes
+
+https://user-images.githubusercontent.com/60868965/210032828-6016a09a-1222-4590-ad64-a0bfc6fc9171.mp4
+
+#### Demo 2: Go to certain coordinate
+
+https://user-images.githubusercontent.com/60868965/210032800-85be377b-e9b8-455a-be52-9ec3bd92fcba.mp4
+
+
+_Note that command must followed by a newline (pressing Enter)_
