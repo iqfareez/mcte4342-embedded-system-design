@@ -30,6 +30,14 @@ https://user-images.githubusercontent.com/60868965/210035027-d83053f6-daca-4b78-
 
 In my opinion, the CircuitPython API for [writing](https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.UART.write) to Serial is quite hard to use. The [documentation](https://learn.adafruit.com/circuitpython-essentials/circuitpython-uart-serial) also lacks examples especially about sending data over the serial port.
 
+Another thing I discovered that, when added the line
+
+```python
+    uart.write(bytearray(value))
+    uart.write(bytearray(" \n".encode()))
+```
+the programs experiences delay/lagging. Perhaps one of the function (either `uart.write` or `bytearray`) is computationally expensive.
+
 So, I've replaced it with Arduino as follows:
 
 ### Arduino to microbit
@@ -54,9 +62,11 @@ https://makecode.microbit.org/_FPae6FgPLF8x
 
 #### Result :white_check_mark:
 
+https://user-images.githubusercontent.com/60868965/210032873-d08cb502-11ca-436a-b739-1a417569fed1.mp4
+
 ## Microcontroller :left_right_arrow: X
 
-_X = Other devices_
+_X = Everything_
 
 ### Windows laptop
 
@@ -86,3 +96,5 @@ https://user-images.githubusercontent.com/60868965/210032800-85be377b-e9b8-455a-
 
 
 _Note that command must followed by a newline (pressing Enter)_
+
+Those command are Marlin gcode flavored. Theoritacally, I can also reverse the conversation i.e. the printer is talking to the PC. This can be done using the [`M118`](https://marlinfw.org/docs/gcode/M118.html) command.  View all list of commands [here](https://marlinfw.org/meta/gcode/).
