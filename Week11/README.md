@@ -75,7 +75,7 @@ Details in [this repo](https://github.com/iqfareez/soil_humidity)
 
 A 3D printer can be controlled by sending a G-CODE command to it.
 
-Simply connect the PC to the 3D printer using a USB cable. I'm using [CoolTerm](https://freeware.the-meiers.org/) as a Serial Monitor interface.
+Simply connect the PC to the 3D printer using a USB cable. I'm using [CoolTerm](https://freeware.the-meiers.org/) as a Serial Monitor interface (similar to the TeraTerm, SSCom etc.)
 
 3D Printer Model: [Artillery Hornet](https://my.cytron.io/p-artillery-hornet-3d-printer-partially-assembled-diy-kit?ref=99Y7TxrNIn6Jo).
 
