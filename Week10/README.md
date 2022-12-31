@@ -15,7 +15,7 @@ Servo can be controlled via PWM
 
 - Servo used: [SG90 Micro Servo](https://my.cytron.io/c-motor-and-motor-driver/c-dc-motor/c-servo-motor/p-sg90-micro-servo?ref=99Y7TxrNIn6Jo)
 
-<!-- add video -->
+https://user-images.githubusercontent.com/60868965/210133641-ac691a1b-1d1e-45f7-b61e-906344516405.mp4
 
 ## Controlling DC motor
 
@@ -28,10 +28,10 @@ Note: I'm using a **12V** power supply, connected to the L298N. Remember to comm
 
 ### Controlling the direction
 
-<!-- add video -->
+https://user-images.githubusercontent.com/60868965/210133626-aab5faf4-08e3-493d-a848-324b7329d442.mp4
 
 ### Controlling the speed
 
 The video below is in slow-motion to better see the speed differences.
 
-<!-- add video -->
+https://user-images.githubusercontent.com/60868965/210133613-cd5dbe8e-7f04-44d8-bf4a-955608460aec.mp4

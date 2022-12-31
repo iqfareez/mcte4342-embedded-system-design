@@ -1,5 +1,13 @@
 # Serial communication
 
+## Notes
+
+|                                                                                                                 |                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| ![image](https://user-images.githubusercontent.com/60868965/210139375-68f3aaaf-b281-47b0-be5e-cf7c20d035e0.png) | ![image](https://user-images.githubusercontent.com/60868965/210139385-874d40a7-fe8e-4770-b621-7d7d56fad83b.png) |
+
+[[Excalidraw link]](https://excalidraw.com/#json=0PRDk16LZjh_OGZHVbERT,GFZgnWLfi7KeeHueFswIgA)
+
 ## Microcontroller :left_right_arrow: microcontroller
 
 Since interfacing Arduino to Arduino is too mainstream, I'm going to go with Raspberry Pi Pico and Microbit.

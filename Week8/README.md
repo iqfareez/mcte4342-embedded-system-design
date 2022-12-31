@@ -1,16 +1,12 @@
 # Non-volatile memory
 
-## Notes
-
-`TODO`
-
 ## Internal memory
 
 ### Basic write and get EEPROM
 
 In this activity, I made a basic script to test the write, read and update the EEPROM value.
 
-If the memoery in address `0` is empty, it will write value `1`. Press button 2 to reset/clear the eeprom. Press button 3 to write value `11` to the eeprom. This
+If the memory in address `0` is empty, it will write value `1`. Press button 2 to reset/clear the eeprom. Press button 3 to write value `11` to the eeprom. This
 value can be verified by resetting the microcontroller (the `setup()` will run)
 
 #### Example output (Serial monitor)
