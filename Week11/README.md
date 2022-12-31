@@ -14,13 +14,9 @@ I had trouble getting it to work here.
 
 #### Code
 
-##### For Pico
-
-[code.py](https://github.com/iqfareez/mcte4342-embedded-system-design/blob/main/Week11/pico/code.py)
-
-##### For microbit
-
-![Screenshot_20221230_092027](https://user-images.githubusercontent.com/60868965/210035118-5fd8354e-fdb7-4459-bc55-b92c77a8d07f.png)
+| Pico                                                                                                     | Microbit                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| See [code.py](https://github.com/iqfareez/mcte4342-embedded-system-design/blob/main/Week11/pico/code.py) | ![Screenshot MakeCode microbit 1](https://user-images.githubusercontent.com/60868965/210035118-5fd8354e-fdb7-4459-bc55-b92c77a8d07f.png) |
 
 #### Result :x:
 
@@ -36,6 +32,7 @@ Another thing I discovered that, when added the line
     uart.write(bytearray(value))
     uart.write(bytearray(" \n".encode()))
 ```
+
 the programs experiences delay/lagging. Perhaps one of the function (either `uart.write` or `bytearray`) is computationally expensive.
 
 So, I've replaced it with Arduino as follows:
@@ -44,21 +41,15 @@ So, I've replaced it with Arduino as follows:
 
 #### Circuit diagram
 
-| Real | Fritzing |
-|--|--|
-|![fritzing arduino pico](https://user-images.githubusercontent.com/60868965/210032863-39923713-a0db-436c-9b9e-db22325c7acd.jpg) | ![arduino-microbit_bb](https://user-images.githubusercontent.com/60868965/210034974-f1ab210c-2e2a-43f5-9c47-b5ae2978d5bf.png) |
+| Real                                                                                                                            | Fritzing                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| ![fritzing arduino pico](https://user-images.githubusercontent.com/60868965/210032863-39923713-a0db-436c-9b9e-db22325c7acd.jpg) | ![arduino-microbit_bb](https://user-images.githubusercontent.com/60868965/210034974-f1ab210c-2e2a-43f5-9c47-b5ae2978d5bf.png) |
 
 #### Code
 
-##### For Arduino
-
-[arduino_out.ino](https://github.com/iqfareez/mcte4342-embedded-system-design/blob/main/Week11/arduino_out/arduino_out.ino)
-
-##### For microbit
-
-![codeblock](https://user-images.githubusercontent.com/60868965/210035072-f2fdbd42-d6c3-4de2-afbe-d6f805652e70.png)
-
-https://makecode.microbit.org/_FPae6FgPLF8x
+| Pico                                                                                                                            | Microbit                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| See [arduino_out.ino](https://github.com/iqfareez/mcte4342-embedded-system-design/blob/main/Week11/arduino_out/arduino_out.ino) | ![codeblock](https://user-images.githubusercontent.com/60868965/210035072-f2fdbd42-d6c3-4de2-afbe-d6f805652e70.png) https://makecode.microbit.org/_FPae6FgPLF8x |
 
 #### Result :white_check_mark:
 
@@ -82,9 +73,11 @@ Details in [this repo](https://github.com/iqfareez/soil_humidity)
 
 ### 3D printer
 
-3D printer can be controlled by sending a GCODE command to it.
+A 3D printer can be controlled by sending a G-CODE command to it.
 
-Simply connect the PC to the 3D printer using USB cable. I'm using [CoolTerm](https://freeware.the-meiers.org/) as a Serial Monitor.
+Simply connect the PC to the 3D printer using a USB cable. I'm using [CoolTerm](https://freeware.the-meiers.org/) as a Serial Monitor interface.
+
+3D Printer Model: [Artillery Hornet](https://my.cytron.io/p-artillery-hornet-3d-printer-partially-assembled-diy-kit?ref=99Y7TxrNIn6Jo).
 
 #### Demo 1: Home all axes
 
@@ -94,7 +87,6 @@ https://user-images.githubusercontent.com/60868965/210032828-6016a09a-1222-4590-
 
 https://user-images.githubusercontent.com/60868965/210032800-85be377b-e9b8-455a-be52-9ec3bd92fcba.mp4
 
-
 _Note that command must followed by a newline (pressing Enter)_
 
-Those command are Marlin gcode flavored. Theoritacally, I can also reverse the conversation i.e. the printer is talking to the PC. This can be done using the [`M118`](https://marlinfw.org/docs/gcode/M118.html) command.  View all list of commands [here](https://marlinfw.org/meta/gcode/).
+Those commands are Marlin gcode flavored. Theoretically, I can also reverse the conversation i.e. the printer is talking to the PC. This can be done using the [`M118`](https://marlinfw.org/docs/gcode/M118.html) command. View all list of commands [here](https://marlinfw.org/meta/gcode/).
