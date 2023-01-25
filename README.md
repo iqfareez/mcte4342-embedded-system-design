@@ -4,6 +4,8 @@ This repository contains the source code for the course MCTE 4342 Embedded Syste
 
 <!-- The course is taught by Dr. Zulkifli Bin Zainal Abidin -->
 
+## Weekly activities
+
 Details of each week tasks is available in their respective folders.
 
 |         No.          | Title            | Status             |
@@ -22,5 +24,9 @@ Legend:
 :white_check_mark:- Completed
 :arrows_counterclockwise:- WIP
 :negative_squared_cross_mark:- Not started
+
+## Mini Project
+
+Go to https://github.com/ESD-shooting-mini-game
 
 <sub>Fareez 1914577</sub>
